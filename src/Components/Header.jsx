@@ -112,7 +112,8 @@ const Header = ({list}) => {
                             }
                         </div>
                         <div className="headerSearchItem">
-                            <button className="headerBtn" onClick={handleSearch}>Search</button>
+                            <button className="headerBtn" onClick={handleSearch}>Search</button> 
+                            {/* On clicking users */}
                         </div>
                     </div>
             </Fragment>
